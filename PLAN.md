@@ -127,7 +127,9 @@ for CD audio) and headless snapshots.
 ### 6. Release, then (optionally) JetStrike Enhanced — launcher done (2026-10-02)
 `jsport/launcher` (`-DJS_LAUNCHER=ON`) → `JetStrike.exe`: game-folder check, CD music status + built-in
 ripper (identical to `tools/cdrip.py`), JS.CFG options and key bindings (byte-exact round trip), SB rate,
-skip intro, scale, full screen. Release package still to do.
+skip intro, scale, full screen. v0.1.0 package prepared (2026-10-06) in `release/` (ignored):
+`jsport-v0.1.0-win64.zip` (both programs, DLLs, README, LICENSE, `licenses/`), `RELEASE_NOTES.md`,
+`SHA256SUMS.txt`; smoke-tested with only the Windows system PATH. Not yet tagged or published.
 Like TD2/TD3/Street Rod: zip + wxWidgets launcher, `RELEASE_NOTES.md`, `SHA256SUMS.txt`; make the
 GitHub repo public at the first release. Enhanced ideas later (widescreen, higher resolution,
 remastered sprites).

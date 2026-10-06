@@ -217,8 +217,8 @@ LauncherDialog::LauncherDialog()
         {"Space  Enter", "confirm in menus and on every screen"},
         {"1 ... 9  0", "throttle setting (0 = full)"},
         {"F1 ... F10", "save / load slot (at the briefing)"},
-        {"F12", "weapon select"},
-        {"Esc", "ends the intro"},
+        {"Down (parked at base)", "rearm: weapon select"},
+        {"Esc  D", "end the intro (on release)"},
         {"Alt+Enter", "full screen (the port)"},
         {"Gamepad", "stick or D-pad steers, A / Cross fires"},
     };
